@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.main-container{
+    background-image: url(../public/cdeluchi.png) ;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.main-container h2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 100px;
+    color: white;
+    font-family: "aleo", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+.main-content h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0 20px 50px;
+    color: white;
+    font-family: "aleo", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.main-content p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    color: white;
+    font-family: "aleo", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.main-content button{
+    padding: 20px;
+    margin: 20px 0 0 50px;
+    font-family: "aleo", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    border-radius: 5px;
+
+}
+.main-content{
+    margin: 50px;
+}
