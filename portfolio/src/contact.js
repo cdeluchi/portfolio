@@ -11,7 +11,7 @@ function Contact() {
           <h1>Follow</h1>
           <p>INSTAGRAM</p>
           <p>GITHUB</p></div>
-        <div><img src="./cdeluchi.png"/></div>
+        
       </div>
     );
   }

@@ -7,6 +7,8 @@
 }
 body{
     background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
 }
 .main-container{
     background-image: url(../public/cdeluchi.png) ;
@@ -55,4 +57,117 @@ body{
 }
 .main-content{
     margin: 50px;
+}
+
+/* about page */
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: grey;
+    color: honeydew;
+}
+.grid-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-left h2{
+    margin: 20px;
+    padding: 20px;
+    font-family: "aleo",Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-left h1{
+    margin: 20px;
+    padding: 20px;
+    font-family: "aleo",Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.grid-right p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-family: "aleo",Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-right button{
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 2px black;
+    font-family: "aleo",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* portfolio-container */
+.portfolio-container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8{
+    width: 60%;
+    height: 350px;
+    margin: 100px;
+    margin-bottom: 100px;
+    border: solid 2px cadetblue;
+    background-image: url(../public/cdeluchi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* To do page */
+
+.todo-container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 25% 25%;
+    background: grey;
+    color: honeydew;
+    font-family:"aleo", Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo-what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo1,
+.todo2,
+.todo3,
+.todo4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+/* contact page */
+.contact-container{
+    background-image: url(../public/cdeluchi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
