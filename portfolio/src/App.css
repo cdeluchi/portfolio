@@ -164,10 +164,59 @@ body{
 }
 
 /* contact page */
+
 .contact-container{
-    background-image: url(../public/cdeluchi.png);
+    background-image: url(../public/contact-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.h2-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 100px;
+    color: honeydew;
+    font-family:"aleo", Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.contact-personal{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    color: honeydew;
+    font-family:"aleo", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    background-color: azure;
+    color: rgb(29, 28, 28);
+    width: 500px;
+    height: 100px;
+    
+}
+.contact-personal h1, p {
+    padding: 10px;
+}
+.contact-media{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-family:"aleo", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    background-color: rgb(29, 28, 28);
+    color: azure;
+    width: 500px;
+    height: 100px;
+}
+.contact-media h1, p {
+    padding: 10px;
 }
